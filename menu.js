@@ -54,6 +54,9 @@ d.write(
 "                            <li> " +
 "                                <a href=\"networking.html\">Neighbor Networking</a> " +
 "                            </li> " +
+"							 <li> " +
+"                                <a href=\"hpha_bylaws2005.html\">HPHA Bylaws</a> " +
+"                            </li> " +
 "                            <li> " +
 "                                <a href=\"https://www.facebook.com/groups/HPHA.US/\" target=\"_blank\">Facebook Group</a> " +
 "                            </li>                             " +

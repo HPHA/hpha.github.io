@@ -26,16 +26,11 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-	<script type="text/javascript">
-		function GetYear() {
-			var year = (new Date()).getFullYear();
-			document.getElementById("spnYear").innerHTML = year;
-		}
-	</script>
+	
 
 </head>
 
-<body onload="GetYear()">
+<body onload="PopulateYear()">
 
    <!-- Navigation -->
     <script src="menu.js"></script>
@@ -123,7 +118,7 @@ questions about current membership standing please contact Treasurer Dave Fisher
         <siteFooter>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; HPHA 2017</p>
+                    <p>Copyright &copy; HPHA <span id="footerYear">2018</span></p>
                 </div>
             </div>
         </siteFooter>
@@ -137,7 +132,12 @@ questions about current membership standing please contact Treasurer Dave Fisher
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
 
-
+	<script type="text/javascript" src="js/site.js"></script>
+	<script type="text/javascript">
+		function PopulateYear() {
+			document.getElementById("spnYear").innerHTML = GetYear();
+		}
+	</script>
 </body>
 
 </html>

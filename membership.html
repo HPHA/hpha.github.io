@@ -26,10 +26,16 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+	<script type="text/javascript">
+		function GetYear() {
+			var year = (new Date()).getFullYear();
+			document.getElementById("spnYear").innerHTML = year;
+		}
+	</script>
 
 </head>
 
-<body>
+<body onload="GetYear()">
 
    <!-- Navigation -->
     <script src="menu.js"></script>
@@ -51,7 +57,19 @@
             </div>
         </div>
         <!-- /.row -->
-
+		<div class="row">
+            <!-- First Column -->
+			<div class="col-md-8">
+                <h3><span id="spnYear">2018</span> HPHA Membership Dues are Due Now</h3>
+                <p>
+                    Annual dues are $25 and allow members to vote on any item brought up by the board, members are eligible for
+elections, and your dues help fund neighborhood events. Dues also allow the HPHA to keep residents informed,
+maintain and improve entrances ($20,000 cost in the last 10 years), and address issues that benefit all residents. For
+questions about current membership standing please contact Treasurer Dave Fisher at <a href="mailto:dfisher@hpha.us">dfisher@hpha.us</a>
+                </p> 
+			</div>
+		</div>
+		
         <!-- Content Row -->
         <div class="row">
             <!-- First Column -->

@@ -26,6 +26,18 @@ d.write(
 "                        <a href=\"meetings.html\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">Meetings <b class=\"caret\"></b></a> " +
 "                        <ul class=\"dropdown-menu\"> " +
 "							 <li> " +
+"                                <a href=\"meetings.html#112018\">November 2018</a> " +
+"                            </li> " +
+"							 <li> " +
+"                                <a href=\"meetings.html#012018\">January 2018</a> " +
+"                            </li> " +
+"							 <li> " +
+"                                <a href=\"meetings.html#082017\">August 2017</a> " +
+"                            </li> " +
+"							 <li> " +
+"                                <a href=\"meetings.html#042017\">April 2017</a> " +
+"                            </li> " +
+"							 <li> " +
 "                                <a href=\"meetings.html#012017\">January 2017</a> " +
 "                            </li> " +
 "                            <li> " +

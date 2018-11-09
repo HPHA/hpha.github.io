@@ -52,9 +52,9 @@ d.write(
 "                            <li> " +
 "                                <a href=\"meetings.html#072015\">July 2015</a> " +
 "                            </li> " +
-"                            <li> " +
-"                                <a href=\"meetings.html#archive\">Archive</a> " +
-"                            </li> " +
+//"                            <li> " +
+//"                                <a href=\"meetings.html#archive\">Archive</a> " +
+//"                            </li> " +
 "                        </ul> " +
 "                    </li> " +
 "					<li> " +

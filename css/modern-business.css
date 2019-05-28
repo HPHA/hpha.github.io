@@ -91,3 +91,15 @@ siteFooter {
         height: 70%;
     }
 }
+
+.danger {
+	color: red;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+a {
+	cursor: pointer;
+}

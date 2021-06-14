@@ -26,6 +26,9 @@ d.write(
 "                        <a href=\"meetings.html\" class=\"dropdown-toggle\" data-toggle=\"dropdown\">Meetings <b class=\"caret\"></b></a> " +
 "                        <ul class=\"dropdown-menu\"> " +
 "							 <li> " +
+"                                <a href=\"meetings.html#052021\">May 2021</a> " +
+"                            </li> " +
+"							 <li> " +
 "                                <a href=\"meetings.html#112018\">November 2018</a> " +
 "                            </li> " +
 "							 <li> " +
@@ -70,7 +73,7 @@ d.write(
 "                                <a href=\"networking.html\">Neighbor Networking</a> " +
 "                            </li> " +
 "							 <li> " +
-"                                <a href=\"hpha_bylaws2005.html\">HPHA Bylaws</a> " +
+"                                <a href=\"hpha_bylaws2005.html\" target=\"_blank\">HPHA Bylaws</a> " +
 "                            </li> " +
 "                            <li> " +
 "                                <a href=\"https://www.facebook.com/groups/HPHA.US/\" target=\"_blank\">Facebook Group</a> " +
